@@ -1,3 +1,9 @@
+# github.com/disintegration/imaging v1.6.2
+github.com/disintegration/imaging
+# github.com/eliukblau/pixterm v1.3.1
+## explicit
+github.com/eliukblau/pixterm/cmd/pixterm
+github.com/eliukblau/pixterm/pkg/ansimage
 # github.com/faiface/beep v1.1.0
 ## explicit
 github.com/faiface/beep
@@ -16,6 +22,9 @@ github.com/hajimehoshi/go-mp3/internal/sideinfo
 # github.com/hajimehoshi/oto v0.7.1
 github.com/hajimehoshi/oto
 github.com/hajimehoshi/oto/internal/mux
+# github.com/lucasb-eyer/go-colorful v1.2.0
+## explicit
+github.com/lucasb-eyer/go-colorful
 # github.com/mattn/go-colorable v0.1.8
 ## explicit
 # github.com/pkg/errors v0.9.1
@@ -23,6 +32,9 @@ github.com/pkg/errors
 # github.com/sirupsen/logrus v1.8.1
 ## explicit
 github.com/sirupsen/logrus
+# golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
+## explicit
+golang.org/x/crypto/ssh/terminal
 # golang.org/x/exp v0.0.0-20190306152737-a1d7652674e8
 golang.org/x/exp/shiny/driver/gldriver
 golang.org/x/exp/shiny/driver/internal/drawer
@@ -32,8 +44,17 @@ golang.org/x/exp/shiny/driver/internal/lifecycler
 golang.org/x/exp/shiny/driver/internal/win32
 golang.org/x/exp/shiny/driver/internal/x11key
 golang.org/x/exp/shiny/screen
-# golang.org/x/image v0.0.0-20190227222117-0694c2d4d067
+# golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d
+## explicit
+golang.org/x/image/bmp
+golang.org/x/image/ccitt
 golang.org/x/image/math/f64
+golang.org/x/image/riff
+golang.org/x/image/tiff
+golang.org/x/image/tiff/lzw
+golang.org/x/image/vp8
+golang.org/x/image/vp8l
+golang.org/x/image/webp
 # golang.org/x/mobile v0.0.0-20190415191353-3e0bab5405d6
 golang.org/x/mobile/app
 golang.org/x/mobile/app/internal/callfn
@@ -46,6 +67,12 @@ golang.org/x/mobile/event/touch
 golang.org/x/mobile/geom
 golang.org/x/mobile/gl
 golang.org/x/mobile/internal/mobileinit
-# golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae
+# golang.org/x/sys v0.0.0-20210909193231-528a39cd75f3
+## explicit
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
+# golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
+## explicit
+golang.org/x/term
