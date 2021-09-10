@@ -13,8 +13,8 @@ import (
 )
 
 const (
-	fireImage = "cayden/godzilla/godzilla.png"
-	roarSound = "cayden/godzilla/godzilla.mp3"
+	fireImageFile = "godzilla/godzilla.png"
+	roarSoundFile = "godzilla/godzilla.mp3"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 
 func fire() {
 	logrus.Info("I burn things!!!")
-	img, err := ansimage.NewFromFile(fireImage, color.Black, ansimage.NoDithering)
+	img, err := ansimage.NewFromFile(fireImageFile, color.Black, ansimage.NoDithering)
 	if err != nil {
 		panic(err)
 	}
@@ -38,7 +38,7 @@ func fire() {
 
 func roar() {
 	logrus.Info("ROAR!!!!")
-	f, err := os.Open(roarSound)
+	f, err := os.Open(roarSoundFile)
 	if err != nil {
 		panic(err)
 	}

@@ -10,5 +10,5 @@ go mod vendor
 ```
 ## Running
 ```
-go run .\cayden\godzilla\godzilla.go [roar|fire]
+go run .\godzilla\godzilla.go [roar|fire]
 ```
