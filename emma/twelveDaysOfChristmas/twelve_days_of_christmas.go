@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Work in progress
+
 const (
 	Reset  = "\033[0m"
 	Red    = "\033[31m"
@@ -49,5 +51,6 @@ func tdoc() {
 			}
 			println(fmt.Sprintf("%s%s", giftsMap[j].gift, lineEnd))
 		}
+		println()
 	}
 }
